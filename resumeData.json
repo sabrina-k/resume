@@ -1,0 +1,147 @@
+{
+  "main": {
+    "name":"Sabrina Keum",
+    "occupation":"Software Engineer",
+    "description":"I'm currently looking for opportunities that predominantly use JavaScript.",
+    "image":"profile.jpg",
+    "bio":"I'm a full stack software developer with some mobile development experience.",
+    "email": "sabrinakeum@gmail.com",
+    "phone": "(404) 500-8462",
+    "address":{
+      "street":"",
+      "city":"San Francisco",
+      "state":"California",
+      "zip": "94103"
+    },
+    "website": "sabrinakeum.com",
+    "resumedownload":"./resume.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"http://linkedin.com/in/sabrinakeum",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/skeum",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Georgia Institute of Technology",
+        "degree":"Bachelor of Science in Computer Science",
+        "graduated":"2015",
+        "description":"The main focus of the program was to design, build, and evaluate systems that treat humans as the central component. The program involved many courses in cognitive science and psychology in order to better understand human perceptions and behaviors. I graduated with High Honors." 
+      },
+      {
+        "school":"Georgia State University",
+        "degree":"Master of Science in Real Estate",
+        "graduated":"2012",
+        "description":"The program had a heavy emphasis on producing statistical and analytical work using Excel, ARGUS, and/or SSPS. The degree encompassed multiple dimensions of real estate including finance, development, law, tax and market study."
+      },
+      {
+        "school":"Georgia Institute of Technology",
+        "degree":"Bachelor of Science in Management",
+        "graduated":"2011",
+        "description":"I graduated with Management Certificate in Finance. I was on Deans List for every semester while attending the business school." 
+      }
+    ],
+    "work":[
+      {
+        "company":"Biomedical Systems",
+        "title":"Software Engineer",
+        "years":"Feb 2017 – Aug 2017",
+        "description":"Biomedical Systems is a company that provides services to aid clinical trials. My team's main function was to provide software that gathers clinical outcome data from patients using company owned Android devices." 
+      },
+      {
+        "company":"Our Makeup Room",
+        "title":"Entrepreneur",
+        "years":"May 2016 – Nov 2016",
+        "description":"I designed a product for my own start-up which is a make-up community that provides customized reviews and generates make-up related market data." 
+      },
+      {
+        "company":"Perficient Digital (Formerly Bluetube)",
+        "title":"Full Stack Associate Developer",
+        "years":"Sep 2015 – May 2016",
+        "description":"Perficient Digital (formerly Bluetube) is a software consulting company. I worked with multiple clients with a .NET framework for the back-end and different kinds of front-end as a full stack developer." 
+      }
+    ],
+    "skills":[
+      {
+        "name":"Javascript (ES6)",
+        "level":"70%"
+      },
+      {
+        "name":"Node.js/Express",
+        "level":"65%"
+      },
+      {
+        "name":"React/Redux",
+        "level":"55%"
+      },
+      {
+        "name":"C#",
+        "level":"65%"
+      },
+      {
+        "name":"ASP.NET",
+        "level":"60%"
+      },
+      {
+        "name":"SQL Server",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Rhythm Game",
+        "description":"This project entailed programming Game Boy Advance using plain C and its standard library. The game is very similar to Dance Dance Revolution except it is meant to be played with a computer keyboard.",
+        "category":"Game",
+        "tags":"C, Game Development",
+        "image":"djsona.png",
+        "url":"",
+        "modal":"#modal-01"
+      },
+      {
+        "title":"Tax Centers Map",
+        "description":"GeorgiaWatch.org requested to create a feature on their current website using MapBox. It was for low-income people and their care-givers to search and find tax centers they can utilize for free. This project aimed to reduce victims of predatory tax refund loans.",
+        "category":"Web",
+        "tags":"Non-profit, Web Development",
+        "image":"tax.jpg",
+        "url":"",
+        "modal":"#modal-02"
+      },
+      {
+        "title":"Recruitment Allocation Visualization Tool",
+        "description":"I worked with Georgia Tech’s Institutional Research Services to design an interactive visualization tool. The department wanted to know which high schools in Georgia they should concentrate allocating their recruiters. This project dealt with Georgia Tech’s student data for the past 10 years. D3.js was mainly used for the implementation.",
+        "image":"d3.png",
+        "url":"",
+        "modal":"#modal-03"
+      },
+      {
+        "title":"iOS APP UI Design",
+        "description":"The app was for facilitating food gatherings such as potlucks. I got to experience the full iterative process of UI design with this project. It involved getting requirements via surveys and interviews, making prototypes, and conducting heuristic evaluations and usability tests.",
+        "image":"host.jpg",
+        "url":"",
+        "modal":"#modal-04"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"I had the pleasure of working with Sabrina on several development projects. I found Sabrina to be proactive, diligent, organized, and easy to work with. She not only achieved the objectives, but surpassed them by pointing out challenges and areas of improvement I would not have been aware of otherwise. I would jump at the chance to work with her again.",
+        "user":"Carrie Driscoll -  BA/PM at Biomedical Systems" 
+      },
+      {
+        "text":"Sabrina was great to work with. She quickly understood our platform and was able to move from bug fixes to new feature development. In addition to coding, Sabrina was able to aid in UI planning and technical architectural decisions. Sabrina is fun, easy to work with, and communicates her perspective well. I'd look forward to working with Sabrina again.",
+        "user":"Kevin O'Reilly -  Sr. Developer and Technical Lead at Biomedical Systems" 
+      }
+    ]
+  }
+}
